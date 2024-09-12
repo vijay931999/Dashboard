@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A56BAAE92C906A4C00726455 /* JobDashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAAE82C906A4C00726455 /* JobDashboardApp.swift */; };
-		A56BAAEB2C906A4C00726455 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAAEA2C906A4C00726455 /* ContentView.swift */; };
+		A56BAAEB2C906A4C00726455 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAAEA2C906A4C00726455 /* DashboardView.swift */; };
 		A56BAAED2C906A5100726455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56BAAEC2C906A5100726455 /* Assets.xcassets */; };
 		A56BAAF02C906A5100726455 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56BAAEF2C906A5100726455 /* Preview Assets.xcassets */; };
 		A56BAAFA2C906A5200726455 /* JobDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAAF92C906A5200726455 /* JobDashboardTests.swift */; };
 		A56BAB042C906A5200726455 /* JobDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB032C906A5200726455 /* JobDashboardUITests.swift */; };
 		A56BAB062C906A5200726455 /* JobDashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB052C906A5200726455 /* JobDashboardUITestsLaunchTests.swift */; };
+		A56BAB142C906E6D00726455 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB132C906E6D00726455 /* CustomNavigationView.swift */; };
+		A56BAB182C9072E300726455 /* Colors+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB172C9072E300726455 /* Colors+App.swift */; };
+		A56BAB1B2C9076DB00726455 /* JobListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB1A2C9076DB00726455 /* JobListView.swift */; };
+		A56BAB1D2C9095ED00726455 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB1C2C9095ED00726455 /* UserDetailsView.swift */; };
+		A56BAB1F2C9097C300726455 /* JobStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB1E2C9097C200726455 /* JobStatsView.swift */; };
+		A56BAB212C909BDB00726455 /* DashboardChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB202C909BDB00726455 /* DashboardChartView.swift */; };
+		A56BAB232C90AAEC00726455 /* ChartLegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB222C90AAEC00726455 /* ChartLegendView.swift */; };
+		A56BAB252C91329300726455 /* LegendItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB242C91329300726455 /* LegendItemView.swift */; };
+		A56BAB272C915AB500726455 /* HorizontalScrollPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB262C915AB400726455 /* HorizontalScrollPicker.swift */; };
+		A56BAB2A2C9170A200726455 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB292C9170A200726455 /* DataModels.swift */; };
+		A56BAB2C2C9170DB00726455 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB2B2C9170DB00726455 /* Repository.swift */; };
+		A56BAB2E2C91719B00726455 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB2D2C91719A00726455 /* SampleData.swift */; };
+		A56BAB302C9172E300726455 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB2F2C9172E300726455 /* DashboardViewModel.swift */; };
+		A56BAB322C92E84D00726455 /* Date+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB312C92E84D00726455 /* Date+App.swift */; };
+		A56BAB342C92EA1200726455 /* InvoiceStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB332C92EA1200726455 /* InvoiceStatsView.swift */; };
+		A56BAB362C92EBF800726455 /* Int+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB352C92EBF800726455 /* Int+App.swift */; };
+		A56BAB382C93095F00726455 /* JobDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB372C93095F00726455 /* JobDescriptionView.swift */; };
+		A56BAB3A2C930E6100726455 /* String+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56BAB392C930E6100726455 /* String+App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +54,7 @@
 /* Begin PBXFileReference section */
 		A56BAAE52C906A4C00726455 /* JobDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56BAAE82C906A4C00726455 /* JobDashboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDashboardApp.swift; sourceTree = "<group>"; };
-		A56BAAEA2C906A4C00726455 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A56BAAEA2C906A4C00726455 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		A56BAAEC2C906A5100726455 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56BAAEF2C906A5100726455 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A56BAAF52C906A5200726455 /* JobDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +62,24 @@
 		A56BAAFF2C906A5200726455 /* JobDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56BAB032C906A5200726455 /* JobDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDashboardUITests.swift; sourceTree = "<group>"; };
 		A56BAB052C906A5200726455 /* JobDashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A56BAB132C906E6D00726455 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		A56BAB172C9072E300726455 /* Colors+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+App.swift"; sourceTree = "<group>"; };
+		A56BAB1A2C9076DB00726455 /* JobListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListView.swift; sourceTree = "<group>"; };
+		A56BAB1C2C9095ED00726455 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		A56BAB1E2C9097C200726455 /* JobStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStatsView.swift; sourceTree = "<group>"; };
+		A56BAB202C909BDB00726455 /* DashboardChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardChartView.swift; sourceTree = "<group>"; };
+		A56BAB222C90AAEC00726455 /* ChartLegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartLegendView.swift; sourceTree = "<group>"; };
+		A56BAB242C91329300726455 /* LegendItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendItemView.swift; sourceTree = "<group>"; };
+		A56BAB262C915AB400726455 /* HorizontalScrollPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollPicker.swift; sourceTree = "<group>"; };
+		A56BAB292C9170A200726455 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		A56BAB2B2C9170DB00726455 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A56BAB2D2C91719A00726455 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A56BAB2F2C9172E300726455 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		A56BAB312C92E84D00726455 /* Date+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+App.swift"; sourceTree = "<group>"; };
+		A56BAB332C92EA1200726455 /* InvoiceStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceStatsView.swift; sourceTree = "<group>"; };
+		A56BAB352C92EBF800726455 /* Int+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+App.swift"; sourceTree = "<group>"; };
+		A56BAB372C93095F00726455 /* JobDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDescriptionView.swift; sourceTree = "<group>"; };
+		A56BAB392C930E6100726455 /* String+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+App.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +130,12 @@
 		A56BAAE72C906A4C00726455 /* JobDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				A56BAB282C91706D00726455 /* Data Resources */,
+				A56BAB192C90769F00726455 /* Views */,
+				A56BAB162C9072B200726455 /* Supporting Files */,
+				A56BAB152C90725700726455 /* Resources */,
+				A56BAB122C906E4C00726455 /* Custom Views */,
 				A56BAAE82C906A4C00726455 /* JobDashboardApp.swift */,
-				A56BAAEA2C906A4C00726455 /* ContentView.swift */,
-				A56BAAEC2C906A5100726455 /* Assets.xcassets */,
 				A56BAAEE2C906A5100726455 /* Preview Content */,
 			);
 			path = JobDashboard;
@@ -125,6 +164,61 @@
 				A56BAB052C906A5200726455 /* JobDashboardUITestsLaunchTests.swift */,
 			);
 			path = JobDashboardUITests;
+			sourceTree = "<group>";
+		};
+		A56BAB122C906E4C00726455 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A56BAB132C906E6D00726455 /* CustomNavigationView.swift */,
+				A56BAB1C2C9095ED00726455 /* UserDetailsView.swift */,
+				A56BAB1E2C9097C200726455 /* JobStatsView.swift */,
+				A56BAB202C909BDB00726455 /* DashboardChartView.swift */,
+				A56BAB222C90AAEC00726455 /* ChartLegendView.swift */,
+				A56BAB242C91329300726455 /* LegendItemView.swift */,
+				A56BAB262C915AB400726455 /* HorizontalScrollPicker.swift */,
+				A56BAB332C92EA1200726455 /* InvoiceStatsView.swift */,
+				A56BAB372C93095F00726455 /* JobDescriptionView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		A56BAB152C90725700726455 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A56BAB172C9072E300726455 /* Colors+App.swift */,
+				A56BAB312C92E84D00726455 /* Date+App.swift */,
+				A56BAB352C92EBF800726455 /* Int+App.swift */,
+				A56BAB392C930E6100726455 /* String+App.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A56BAB162C9072B200726455 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56BAAEC2C906A5100726455 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A56BAB192C90769F00726455 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A56BAAEA2C906A4C00726455 /* DashboardView.swift */,
+				A56BAB1A2C9076DB00726455 /* JobListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A56BAB282C91706D00726455 /* Data Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A56BAB292C9170A200726455 /* DataModels.swift */,
+				A56BAB2B2C9170DB00726455 /* Repository.swift */,
+				A56BAB2D2C91719A00726455 /* SampleData.swift */,
+				A56BAB2F2C9172E300726455 /* DashboardViewModel.swift */,
+			);
+			path = "Data Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +351,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56BAAEB2C906A4C00726455 /* ContentView.swift in Sources */,
+				A56BAB212C909BDB00726455 /* DashboardChartView.swift in Sources */,
+				A56BAB2E2C91719B00726455 /* SampleData.swift in Sources */,
+				A56BAB142C906E6D00726455 /* CustomNavigationView.swift in Sources */,
+				A56BAB322C92E84D00726455 /* Date+App.swift in Sources */,
+				A56BAB272C915AB500726455 /* HorizontalScrollPicker.swift in Sources */,
+				A56BAB2C2C9170DB00726455 /* Repository.swift in Sources */,
+				A56BAB3A2C930E6100726455 /* String+App.swift in Sources */,
+				A56BAB252C91329300726455 /* LegendItemView.swift in Sources */,
+				A56BAB302C9172E300726455 /* DashboardViewModel.swift in Sources */,
+				A56BAB182C9072E300726455 /* Colors+App.swift in Sources */,
+				A56BAAEB2C906A4C00726455 /* DashboardView.swift in Sources */,
+				A56BAB1B2C9076DB00726455 /* JobListView.swift in Sources */,
+				A56BAB1D2C9095ED00726455 /* UserDetailsView.swift in Sources */,
+				A56BAB1F2C9097C300726455 /* JobStatsView.swift in Sources */,
+				A56BAB362C92EBF800726455 /* Int+App.swift in Sources */,
+				A56BAB2A2C9170A200726455 /* DataModels.swift in Sources */,
+				A56BAB342C92EA1200726455 /* InvoiceStatsView.swift in Sources */,
+				A56BAB232C90AAEC00726455 /* ChartLegendView.swift in Sources */,
 				A56BAAE92C906A4C00726455 /* JobDashboardApp.swift in Sources */,
+				A56BAB382C93095F00726455 /* JobDescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +536,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JobDashboard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dashboard;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -436,6 +549,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JobDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,6 +569,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JobDashboard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Dashboard;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -464,6 +582,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JobDashboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
