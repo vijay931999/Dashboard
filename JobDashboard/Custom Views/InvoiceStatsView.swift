@@ -36,10 +36,11 @@ struct InvoiceStatsView: View {
 
             HStack {
                 Text("Total value \(totalAmount.toCurrency())")
+                    .foregroundStyle(Color.subtitle_Color)
                 Spacer()
                 Text("\(invoiceTotals[.paid]?.toCurrency() ?? "$0") collected")
+                    .foregroundStyle(Color.headline_Color)
             }
-            .foregroundStyle(Color.subtitle_Color)
             .font(.subheadline)
             .fontWeight(.bold)
             .padding(16)
