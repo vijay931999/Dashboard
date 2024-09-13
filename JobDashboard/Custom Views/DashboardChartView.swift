@@ -17,7 +17,7 @@ struct DashboardChartView<T: DashboardChartItem & Hashable>: View {
 
     var sortedStats: [(key: T, value: Int)] {
         Array(stats)
-            .sorted { $0.key.dashboardChartPriority < $1.key.dashboardChartPriority }
+            .sorted { $0.value > $1.value }
     }
 
     var body: some View {

@@ -48,21 +48,6 @@ public enum JobStatus: String, CaseIterable, Hashable, DashboardChartItem {
         }
     }
 
-    var dashboardChartPriority: Int {
-        switch self {
-        case .yetToStart:
-            return 3
-        case .inProgress:
-            return 2
-        case .cancelled:
-            return 4
-        case .completed:
-            return 1
-        case .incomplete:
-            return 5
-        }
-    }
-
     var chartLegendPriority: Int {
         switch self {
         case .yetToStart:
@@ -114,19 +99,6 @@ public enum InvoiceStatus: String, CaseIterable, Hashable, DashboardChartItem {
         }
     }
 
-    var dashboardChartPriority: Int {
-        switch self {
-        case .draft:
-            return 3
-        case .pending:
-            return 1
-        case .paid:
-            return 2
-        case .badDebt:
-            return 4
-        }
-    }
-
     var chartLegendPriority: Int {
         switch self {
         case .draft:
@@ -148,7 +120,6 @@ public enum StatsType {
 protocol DashboardChartItem {
     var name: String { get }
     var color: Color { get }
-    var dashboardChartPriority: Int { get }
     var chartLegendPriority: Int { get }
     var statsType: StatsType { get }
 }

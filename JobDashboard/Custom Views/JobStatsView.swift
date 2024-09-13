@@ -19,7 +19,7 @@ struct JobStatsView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
             HStack {
-                Text("Jobs")
+                Text("Job Stats")
                     .foregroundStyle(Color.title_Color)
                     .font(.headline)
                     .fontWeight(.semibold)
